@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Randomly pick a beverage from a Coca-Cola Freestyle machine."""
 
 import argparse

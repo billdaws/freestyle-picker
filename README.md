@@ -4,8 +4,19 @@ For the indecisive soda drinker.
 
 ## Usage
 
+With Nix:
+
 ```
-$ ./freestyle.py -h
+$ nix run github:billdaws/freestyle-picker -- -h
+```
+
+Without Nix:
+
+```
+$ python3 freestyle.py -h
+```
+
+```
 usage: freestyle.py [-h] [--diet] [--list]
 
 Pick a random Coca-Cola Freestyle beverage.
